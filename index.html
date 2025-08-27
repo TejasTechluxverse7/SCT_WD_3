@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tic Tac Toe</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Tic Tac Toe</h1>
+
+  <div class="controls">
+    <button onclick="startNewGame('human')">2 Players</button>
+    <button onclick="startNewGame('computer')">Vs Computer</button>
+    <button onclick="resetScore()">Reset Score</button>
+  </div>
+
+  <div id="options">
+    <label>Choose Symbol:</label>
+    <button onclick="chooseSymbol('X')">Play as X</button>
+    <button onclick="chooseSymbol('O')">Play as O</button>
+    
+    <label>Difficulty:</label>
+    <select id="difficulty" onchange="setDifficulty(this.value)">
+      <option value="easy">Easy</option>
+      <option value="hard">Hard</option>
+    </select>
+  </div>
+
+  <div id="status">Choose a mode to start!</div>
+  <div id="game-board"></div>
+
+  <div class="turn-box">
+    <div id="x-box" class="active">X Player</div>
+    <div id="o-box">O Player</div>
+  </div>
+
+  <div id="scoreboard"></div>
+
+  <audio id="click-sound" src="https://www.soundjay.com/buttons/sounds/button-16.mp3"></audio>
+  <audio id="win-sound" src="https://actions.google.com/sounds/v1/alarms/beep_short.ogg"></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
