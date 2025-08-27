@@ -91,5 +91,5 @@ The game includes browser-supported sound effects for:
 
 ## 📜 License
 
-This project is licensed under the GNU License – feel free to use, modify, and share.
+This project is licensed under the GPL License – feel free to use, modify, and share.
 
