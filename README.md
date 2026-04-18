@@ -89,6 +89,11 @@ The game includes browser-supported sound effects for:
 
 ---
 
+## Developer 
+Tejas Vilas Kondhalkar
+
+----
+
 ## 📜 License
 
 This project is licensed under the GPL License – feel free to use, modify, and share.
